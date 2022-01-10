@@ -1,0 +1,102 @@
+*{
+    color: white;
+}
+body{
+    /*background: url(img/AI-2021-new.jpg);*/
+/*    position: fixed;
+    width: auto;*/
+    height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/AI-2021-new (1).jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*nav{
+    margin: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* border-radius: 50px; */
+/*    background: #7b4dd1;
+    
+    box-shadow:  5px 15px 60px #8035bd,
+                 -10px -10px 60px #aaa7d9; 
+
+
+}*/
+.nav-link{
+    color: aliceblue;
+}
+
+
+.card {
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 20px;
+}
+
+.modal{
+        backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 20px;
+}
+.box1{
+    /* margin: 60px; */
+    /* margin: 10px; */
+    background-color: #aaa7d9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 60px rgb(132, 131, 133);
+
+}
+
+.btn1{
+    color: aliceblue;
+    background-color: tr;
+    border-color: rgb(255, 255, 255);
+    border-width: 1.5px;
+    margin: 3px;
+    
+    border-radius: 30px;
+}
+.btn1:hover{
+    background-color: aliceblue;
+    box-shadow: 5px 10px 20px white;
+}
+/*.card{
+    justify-content: center;
+    border-color: black;
+    border-width: 0.5px;
+}
+.card:hover{
+    box-shadow: 5px 10px 60px rgb(132, 131, 133)
+}*/
+.btn2{
+    background-color: #7b4dd1;
+    color: white;
+    width: auto;
+}
+.btn2:hover{
+    background-color: transparent;
+    border-color: black;
+    border-width: 1.5px;
+}
+.modal-body, .modal-title, .black{
+    color: black !important;
+    font-size: 30px;
+    /*text-shadow: 2px 2px 4px black;*/
+}
